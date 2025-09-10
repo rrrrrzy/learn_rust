@@ -152,6 +152,37 @@ A: 前5个文件建议按顺序学习，后面的可以根据兴趣调整
 - [Rust 示例集](https://doc.rust-lang.org/stable/rust-by-example/)
 - [Rustlings 练习](https://github.com/rust-lang/rustlings)
 
+## 实操项目
+
+除了理论学习，本项目还提供了一系列实操项目来巩固知识：
+
+- **[projects/](./projects/)** - 实操项目目录
+  - **01_smart_calculator** - 智能计算器 (对应第1-2章)
+  - **02_text_analyzer** - 文本分析工具 (对应第3-4章)
+  - **更多项目正在开发中...**
+
+### 实操项目特色
+
+1. **渐进式难度**: 从简单的控制台程序到复杂的系统应用
+2. **知识点对应**: 每个项目都精确对应特定的教程章节
+3. **实用价值**: 不是简单的练习题，而是有实际应用价值的工具
+4. **可扩展性**: 每个项目都提供了扩展思路和进阶功能
+
+### 使用方式
+
+```bash
+# 进入项目目录
+cd projects/01_smart_calculator
+
+# 运行项目
+cargo run
+
+# 查看项目说明
+cat README.md
+```
+
+详细信息请查看 [实操项目规划文档](./实操项目规划.md)。
+
 ## 贡献
 
 如果你发现任何错误或有改进建议，欢迎提交 issue 或 pull request。

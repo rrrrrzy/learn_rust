@@ -1,0 +1,11 @@
+[package]
+name = "smart_calculator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# 暂时不需要外部依赖，使用标准库即可
+
+[[bin]]
+name = "calculator"
+path = "src/main.rs"

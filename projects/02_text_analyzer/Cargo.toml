@@ -1,0 +1,13 @@
+[package]
+name = "text_analyzer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# 基础版本只使用标准库，扩展版本可以添加：
+# regex = "1.0"
+# unicode-segmentation = "1.0"
+
+[[bin]]
+name = "analyzer"
+path = "src/main.rs"
